@@ -122,10 +122,11 @@
       position: absolute;
       content: '';
       display: block;
-      width: 100%;
+      max-width: 200px;
+      width: 80%;
       height: 1px;
       background-color: #fff;
-      bottom: -8px;
+      bottom: -4px;
 
       transition: transform $effect-duration;
       transform: scale(0);
