@@ -59,6 +59,13 @@
       color: #292929;
       border: 1px solid #d5d7de;
     }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px $input-background-color inset;
+      -webkit-text-fill-color: #292929;
+    }
   }
 
   &__button {
